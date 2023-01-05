@@ -1,0 +1,19 @@
+***Overall the assignment was very well executed!***
+
+
+**test_instapy.py:**
+
+- I have shortened the code a bit by adding two for loops, one for grayscale and one for sepia.  The loops loop through the different implementations and assert the equalities. 
+- I have added an informative assert message to the user if the tests fail.
+- I have also put the loops inside their corresponding functions, test_grayscale() and test_sepia(), so that they can be detected py pytest.
+-  The importing of the image didn't work the me so I changed it to just "rain.jpg" insted of the whole path.
+
+> In the test I think you were supposed to make a whole random 3d-array, and add the filters to it in order to test your code. Your solution of just picking random indices works, but isn't as thorough.
+
+**__init__.py:**
+
+- Here I've just shortened the code by putting the average time computation in a function and calling it in the appropriate places.
+
+> It would have been nice if the runtime differences between the different implementations was calculated for each time and not just written in. It would have been messy to implement it to your code due to it's structure
+
+There was not much else to fix!:) Very nice and smart solution to the actual implementation of the filters!

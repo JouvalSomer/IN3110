@@ -1,0 +1,6 @@
+Timing: numba_color2sepia
+Average runtime after running numba_color2sepia three times: 0.185526s
+Average runtime of numba_color2sepia is 295 times faster than python_color2sepia
+Average runtime of numpy_color2sepia is 1 times faster than numba_color2sepia
+Timing performed using: (1080, 1920, 3)
+One advantages of using numba insted of numpy is the fact that you can write simple python code and don't have to worry about vectorization or optimization. A disadvantages could be that the code runs slower than vectorized numpy code.

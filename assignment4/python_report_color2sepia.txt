@@ -1,0 +1,3 @@
+Timing: python_color2sepia
+Average runtime after running python_color2sepia three times: 51.818734s
+Timing performed using: (1080, 1920, 3)
